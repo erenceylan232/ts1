@@ -1,0 +1,214 @@
+
+
+    <style>
+        .animated_div {
+            width: initial;
+            height: initial;
+            background: #949090;
+            position: relative;
+            font-weight: bold;
+            font-size: 42px;
+            text-align: center;
+            padding: 10px;
+            animation: animated_div 5s 1;
+            -moz-animation: animated_div 5s 1;
+            -webkit-animation: animated_div 5s 1;
+            -o-animation: animated_div 5s 1;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+        @keyframes animated_div {
+            0% {
+                transform: rotate(0deg);
+                left: 0px;
+            }
+            25% {
+                transform: rotate(20deg);
+                left: 0px;
+            }
+            50% {
+                transform: rotate(0deg);
+                left: 500px;
+            }
+            55% {
+                transform: rotate(0deg);
+                left: 500px;
+            }
+            70% {
+                transform: rotate(0deg);
+                left: 500px;
+                background: #000000;
+            }
+            100% {
+                transform: rotate(-360deg);
+                left: 0px;
+            }
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container bg-transparent" style="height: 451px;">
+        <center>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="lppc.jpg" class="d-block" style="width:auto; height: 500px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="mspc.jpg" class="d-block" style="width: auto; height: 500px; ">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="lppc3.jpg" class="d-block" style="width: auto; height: 500px; ">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </center>
+    </div>
+    <br /><br /><br /><br /><br />
+    <div id="dv1" class="container tab-pane text-light active">
+        <p class="p">
+            Meşhur fıkradır, anlatılır. Adamın biri hayatı boyunca küfür edip durmuş. Her cümlesinde muhakkak küfür olurmuş.
+            Hatta bazen sadece küfür ederek cümle kurarmış. Bir gün daha vakti dolmadan, bu dünyadan göçüvermiş.
+            Kendini Tanrı'nın huzurunda bulmuş.
+            Yüce gönüllü Tanrı, “sevdiğim kullarımdan birisin, lâkin, her iki sözünden birinde küfredersin,” demiş.
+            Bu yüzden öldün demiş! Durumu fark eden adam, ikinci bir şans istemiş.
+            Tanrı, bu ikinci şansı boyunca üç küfür hakkı vermiş kuluna.
+            Üçüncü küfrü ettiği anda, ölecekmiş.
+            Karşılıklı anlaşınca adam kendini 7 kat gökten düşerken bulmuş.
+            Önce sinirle “ha .tir” demiş.
+            Sonra daha yere ayak basmadan ilk hakkını yitirdiğini fark edip panikle bir daha “ha..tiiir” demiş.
+            Boşlukta süzülürken, elinde sadece bir hak kaldığını fark ederek, artık umursamazca “ha ..tir” demiş! Ve puf! Şaka bir tarafa, sadece bir tek küfürle birkaç ruh halini ortaya koymanın mümkün olduğunu gösteren bir fıkra bu.
+            Daha birçok örnek var, her dilde… İyi-kötü hâlâ belli değil, edersiniz etmezsiniz size kalmış. Ama dilin sıradışı bir ürünü olduğu da gerçek.
+            Yakın zamanda, küfürle ilgili nitelikli tartışmaları Gezi Direnişi esnasında dillendirmişti birçokları.
+            Hoyrat bir eril dil anlayışı olduğu ve içindeki şiddete dikkat çekmişlerdi. Kimi itiraz etti bu duruma, kimi onay verdi.
+            Neticede bir “dil” meselesi! Aylak Kitap tarafından yayımlanan Melissa Mohr ‘Küfür Etmenin Kısa Tarihi’ adlı kitabında küfrün dilbilimsel hikâyesine ve bilhassa “kutsal” olanla ilişkisine odaklanıyor.
+            Özellikle İngilizce ve diğer Avrupa dillerindeki “holly - shit” kullanımının Ortaçağ'dan bugüne kadarki sosyal, kültürel, tarihsel seyrini ortaya koyuyor.
+            Karanlık veya değil, ama Ortaçağ’ın üzerinde “din” etkisi yadsınamaz, haliyle o dönemde dilde ortaya çıkmış bu kullanımın arka planına odaklanıyor.
+            Küfrün doğasındakı dinsel, cinsel, etnik, sınıfsal, sosyal, kimliksel bütün detaylarını aktarıyor.
+            Özellikle Katolik öğretinin ve kültürel yaklaşımın küfür etmenin doğasında nasıl bir etki yarattığını ortaya koyuyor.
+            Küfür deyip geçmeyin, yemin ederken bile “anam avradım olsun” diyen bir ülkede yaşıyoruz!
+        </p>
+    </div><br /><br /><br /><br />
+
+    <center>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <div id="div1" class="card bg-transparent text-white">
+                    <img src="tmr1.jpg" class="card-img" style="width: 350px; height: 250px;" />
+                    <div class="card-body">
+                        <h5 class="card-title">1</h5>
+                        <p class="card-text">
+                            Birçok donanım sorununun hemen tamir edilemeyeceğini bil.
+                            Eğer bilgisayarın hiç açılmıyorsa, bilgisayarını kendin tamir etmeye çalışmak yerine bir tamir hizmetine götürürsen şansın daha yaver gidecektir.[1]
+                            Şansına, donanım problemlerinin çoğu zayıf bağlantılar veya bileşen arızalarından kaynaklanır;
+                            sabit diskine genelde bir şey olmaz, yani dosyalarının güvende olması gerekir.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-inline-item">
+                <div id="div1" class="card bg-transparent text-white">
+                    <img src="tmr2.jpg" class="card-img" style="width: 350px; height: 250px; " />
+                    <div class="card-body">
+                        <h5 class="card-title">2</h5>
+                        <p class="card-text">
+                            Bilgisayarının sabit diskini yedekle.
+                            Önemli onarımlar yapmadan önce dosyalarını yedeklemek isteyebilirsin.
+                            Bunu, bilgisayarının sabit diskini çıkarıp başka bir bilgisayara IDE-USB dönüştürücü (veya daha eski sabit diskler için SATA-USB dönüştürücü)
+                            ile bağlayarak ve sabit diski yedeklemek için diğer bilgisayarı kullanarak yapabilirsin.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-inline-item">
+                <div id="div1" class="card bg-transparent text-white">
+                    <img src="tmr3.jpg" class="card-img" style="width: 350px; height: 250px; " />
+                    <div class="card-body">
+                        <h5 class="card-title">3</h5>
+                        <p class="card-text">
+                            Güç kablosunu kontrol et. Basit görünebilir; ama güç kablosunun takılı olup olmadığını ve prizin çalışıp çalışmadığını tekrar kontrol et.
+                            Sorunun sebebinin aşırı gerilim koruyucundan veya güç kablosundan kaynaklanıp kaynaklanmadığına anlamak için bilgisayarı direkt olarak duvardaki prize bağla.
+                            Dizüstü bilgisayar kullanıyorsan güç adaptörünün iyi bağlanmış olduğundan emin ol.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-inline-item">
+                <div id="div1" class="card bg-transparent text-white">
+                    <img src="tmr4.jpg" class="card-img" style="width: 350px; height: 250px; " />
+                    <div class="card-body">
+                        <h5 class="card-title">4</h5>
+                        <p class="card-text">
+                            Farklı bir monitör dene.
+                            Eğer bilgisayarın açılıyorsa ama hiçbir şey göremiyorsan, monitöründe bir sorun olabilir
+                            . Monitörünün bağlantısını tekrar kontrol et ve mümkünse başka bir monitör bağlamayı dene.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-inline-item">
+                <div id="div1" class="card bg-transparent text-white">
+                    <img src="tmr5.jpg" class="card-img" style="width: 350px; height: 250px;" />
+                    <div class="card-body">
+                        <h5 class="card-title">5</h5>
+                        <p class="card-text">
+                            Dizüstü bilgisayarının bataryasını çıkar ve güç adaptörünü bağla.
+                            Dizüstü bilgisayarını, bir güç kaynağına bağlı olduğun sürece bataryası takılı olmadan kullanabilirsin.
+                            Eğer dizüstü bilgisayarın batarya takılı değilken açılıyorsa, bataryada bir sorun vardır ve değişim için üreticiyle iletişime geçmen gerekir.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </center>

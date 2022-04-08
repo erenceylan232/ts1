@@ -1,0 +1,79 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #ffffff 10%, #808080 30%, #000000 80%);
+    background-size: cover;
+}
+
+.box {
+    text-align: center;
+}
+
+    .box img {
+        border-radius: 20%;
+        opacity: 0.2;
+        filter: opacity(opacity=20px);
+    }
+
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.p{
+    font-size: 28px;
+    font-family:'MS PGothic';
+    text-align: justify;
+}
+
+.sosyalbutonlar {
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+    .sosyalbutonlar a {
+        background: #ffffff;
+        text-decoration: none;
+        color: #ffffff;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 30px;
+        overflow: hidden;
+        position: relative;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .sosyalbutonlar a {
+        transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+    }
+
+    .sosyalbutonlar .facebook:hover {
+        background-color: #ffffff;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .twitter:hover {
+        background-color: #ffffff;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .google-plus:hover {
+        background-color: #ffffff;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+    .sosyalbutonlar .instagram:hover {
+        background-color: #ffffff;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
