@@ -92,7 +92,11 @@
     <Content Include="bootstrap.js" />
     <Content Include="Global.asax" />
     <Content Include="stl.css" />
+    <Content Include="stl2.css" />
+    <Content Include="stl3.css" />
     <Content Include="ts1.html" />
+    <Content Include="ts2.html" />
+    <Content Include="ts3.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

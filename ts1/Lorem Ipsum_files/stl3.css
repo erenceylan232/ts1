@@ -1,0 +1,193 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+#mySidenav a {
+    margin-top: 15%;
+    position: fixed;
+    left: -100px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mySidenav a:hover {
+        left: 0;
+    }
+
+#about {
+    top: 20px;
+    background-color: #ff6a00;
+}
+
+#blog {
+    top: 95px;
+    background-color: #ff6a00;
+}
+
+#projects {
+    top: 170px;
+    background-color: #ff6a00;
+}
+
+#contact {
+    top: 245px;
+    background-color: #ff6a00;
+}
+
+.ymk {
+    margin-left: 25%;
+    background: #ff6a00;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+
+    .ymk .fnt {
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+    }
+
+    .ymk .head {
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+    }
+
+
+.sol {
+    margin-left: -5%;
+    background: #ff6a00;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+    
+    .sol .yp {
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+    }
+
+.sag {
+    margin-right: -5%;
+    background: #ff6a00;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+
+    .sag .yap {
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        transform: skew(20deg);
+    }
+
+#byk {
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+    
+    #byk:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
+#cnt2 {
+    position: relative;
+    width: 50%;
+}
+
+#img2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff6a00;
+    overflow: hidden;
+    width: 450px;
+    height: 0;
+    transition: .5s ease;
+}
+
+#cnt2:hover #overlay2 {
+    height: 100%;
+}
+
+#txt2 {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#cnt {
+    position: relative;
+    width: 50%;
+}
+
+#img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #484646;
+    overflow: hidden;
+    width: 450px;
+    height: 0;
+    transition: .5s ease;
+}
+
+#cnt:hover #overlay {
+    height: 100%;
+}
+
+#txt {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+}

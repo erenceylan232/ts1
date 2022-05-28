@@ -1,0 +1,107 @@
+<div class="row justify-content-center">
+            <div class="col-3 p-3">
+                <div class="card-header bg-dark" style="width: 485px;">
+                    <div id="cnt">
+                        <img src="a.jpg" id="img" style="width: 450px; height: auto; " />
+                        <div id="overlay">
+                            <div id="txt">
+                                <h4>Lorem Ipsum</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut purus urna, rhoncus vitae metus sed, sagittis malesuada odio.
+                                    Ut non orci vitae diam mollis iaculis. Nam eu ultricies dui, sit amet imperdiet ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 p-3">
+                <div class="card-header bg-dark" style="width: 485px;">
+                    <div id="cnt">
+                        <img src="a.jpg" id="img" style="width: 450px;" />
+                        <div id="overlay">
+                            <div id="txt">
+                                <h4>Lorem Ipsum Dolor Sit Amet</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut purus urna, rhoncus vitae metus sed, sagittis malesuada odio.
+                                    Ut non orci vitae diam mollis iaculis. Nam eu ultricies dui, sit amet imperdiet ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 p-3">
+                <div class="card-header bg-dark" style="width: 485px;">
+                    <div id="cnt">
+                        <img src="a.jpg" id="img" style="width: 450px;" />
+                        <div id="overlay">
+                            <div id="txt">
+                                <h4>Lorem Ipsum Dolor Sit Amet</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut purus urna, rhoncus vitae metus sed, sagittis malesuada odio.
+                                    Ut non orci vitae diam mollis iaculis. Nam eu ultricies dui, sit amet imperdiet ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-3 p-3">
+                <div class="card-header orang" style="width: 485px;">
+                    <div id="cnt2">
+                        <img src="a.jpg" id="img2" style="width: 450px; height: auto; " />
+                        <div id="overlay2">
+                            <div id="txt2">
+                                <h4>Lorem Ipsum</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut purus urna, rhoncus vitae metus sed, sagittis malesuada odio.
+                                    Ut non orci vitae diam mollis iaculis. Nam eu ultricies dui, sit amet imperdiet ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 p-3">
+                <div class="card-header orang" style="width: 485px;">
+                    <div id="cnt2">
+                        <img src="a.jpg" id="img2" style="width: 450px;" />
+                        <div id="overlay2">
+                            <div id="txt2">
+                                <h4>Lorem Ipsum Dolor Sit Amet</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut purus urna, rhoncus vitae metus sed, sagittis malesuada odio.
+                                    Ut non orci vitae diam mollis iaculis. Nam eu ultricies dui, sit amet imperdiet ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 p-3">
+                <div class="card-header orang" style="width: 485px;">
+                    <div id="cnt2">
+                        <img src="a.jpg" id="img2" style="width: 450px;" />
+                        <div id="overlay2">
+                            <div id="txt2">
+                                <h4>Lorem Ipsum Dolor Sit Amet</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Ut purus urna, rhoncus vitae metus sed, sagittis malesuada odio.
+                                    Ut non orci vitae diam mollis iaculis. Nam eu ultricies dui, sit amet imperdiet ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
